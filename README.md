@@ -38,5 +38,21 @@ Sendo assim entao vamos para o primeiro commit
 
 ### 1° Commit - Criação do Projeto Angular e teste Hello Word
 
+*** 
 
+### 2° Passo
+
+Nesse momento vamos criar os componetes com a Ajuda do Angular Cli, o objetivo é criar componentes Cabeçalho(header), Rodapé(footer), home( para direcionar ou para o youtube ou para portifolio), teremos entao uma pasta youtube com o componente homeyoutube e a pasta portifolio com o componente homeportifolio.
+
+Primeiramente criaremos esses componentes e depois adicionaremos outros conforme o projeto for evoluindo sendo assim então usaremos os comandos no terminal
+
+"ng g c header"
+"ng g c footer"
+"ng g c home"
+"ng g c youtube/homeyoutube" (nesse caso faltou usar o Case up na Palavra Youtube)
+"ng g c portifolio/homePortifolio"
+
+Foi então Adicionado as tag dos componentes no arquivo app.component.html e no home.component.html, testamos para verificar que os componenes estão sendo reconhecidos e funcionando corretamente.
+
+### 2° Commit - Criando Componentes Iniciais c/ CLI
 
