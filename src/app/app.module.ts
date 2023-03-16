@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { HomeyoutubeComponent } from './youtube/homeyoutube/homeyoutube.component';
 import { HomePortifolioComponent } from './portifolio/home-portifolio/home-portifolio.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomePortifolioComponent } from './portifolio/home-portifolio/home-porti
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

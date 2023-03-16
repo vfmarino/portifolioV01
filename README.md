@@ -56,3 +56,38 @@ Foi então Adicionado as tag dos componentes no arquivo app.component.html e no 
 
 ### 2° Commit - Criando Componentes Iniciais c/ CLI
 
+Observação: Quando criamos componente utilizando o Angular Cli, a declaração no app.module é automatica, caso criar o arquivo manualmente será necessário declarar, sendo muito mais rápido a criação pelo terminal, outro ponto a ser lembrado é de não criar componentes com mesmo nome para evitar o conflito, o arquivo app.module não vai entender dois componentes com a mesmo nome ele nao consegue indentificar qual é qual causando conflitos.
+
+*** 
+
+### 3° Passo
+
+Nesse momento vamos criar o componente do cabeçalho, no cabeçalho buscamos adicionar os icones das redes sociais, e um botão no qual seja possivel trocar o layout/tema entre claro e escuro.
+
+https://www.npmjs.com/package/@fortawesome/angular-fontawesome (referência do passos abaixo)
+Primeiramente para criar os icones vamos seguir os passoas abaixo no terminal :
+
+npm install @fortawesome/fontawesome-svg-core
+npm install @fortawesome/free-solid-svg-icons
+npm install @fortawesome/free-brands-svg-icons (este não está na referencia mais é necessario para adicionar os icones de marcas)
+npm install @fortawesome/angular-fontawesome@0.11.x (usado a versao para angular 14 conforme referência)
+
+
+Copiar import conforme a referência.
+
+Abrir o header.component.ts 
+- Declarar os nomes das variaveis
+- Adicionar o imports
+
+Abrir header.component.ts
+- Adicionar div container
+- Adicionar div icons e layout dentro de container
+- Adicionar "<fa-icon>" para cada icone dentro da div icons
+- Adicionar "button" para troca de cor do tema na div layout
+
+Realizado teste e icones ja funcionando, neste momento o botão claro e escuro ainda nao foi criado.
+
+### 3° Commit - ON C HEADER ADD ICONS FontAwesome
+
+
+
