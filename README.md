@@ -85,9 +85,24 @@ Abrir header.component.ts
 - Adicionar "<fa-icon>" para cada icone dentro da div icons
 - Adicionar "button" para troca de cor do tema na div layout
 
-Realizado teste e icones ja funcionando, neste momento o botão claro e escuro ainda nao foi criado.
+Realizado teste e icones ja funcionando, neste momento o botão claro e escuro aparece mais ainda não foi criado a funcionalidade, será criada mais a frente.
 
 ### 3° Commit - ON C HEADER ADD ICONS FontAwesome
 
+*** 
 
+### 4° Passo
+
+Agora Iremos Criar a Pagina incial onde vamos direcionar ou para um pagina com informaçoes sobre o Canal no Youtube, ou para um Portifolio de Desenvolvedor que estamos criando.
+
+Abrir home.component.html
+- Adicionar div container
+- Adicionar na div container as divs "cssWordEfect", "cssWordEfect2", "buttons"(criando butoes dentro para youtube e portifoilio)
+
+Objetivo nesse passo é criar a estrutura dessa primeira pagina ainda não será adicionado estilos
+
+Abrir footer.component.html
+- criar criar div com copy 2023 
+
+### 4° Commit - Home and Footer C structure
 
