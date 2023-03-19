@@ -106,3 +106,51 @@ Abrir footer.component.html
 
 ### 4° Commit - Home and Footer C structure
 
+*** 
+
+### 5° Passo
+
+Nesse passo o objetivo é criar uma base de estilos css de forma que ao trocar cores seja aplicado para todos os componentes, no arquivo styles.css iremos criar variaveis, essa variaveis sao usadas para definir as cores no componentes e ao trocar a cor no arquivo principal troca automaticamente em todos.
+
+Exemplo:
+
+--cor-preto: black;
+
+Iremos também zerar margin e padding.
+
+Nesse passo também criamos o css de header e footer, para que os mesmos fiquem fixos na tela e também na largura total da tela, sendo header o cabeçalho fixo no top = 10px e footer o rodapé fixo no bottom =0
+
+Para os icones das redes sociais vamos agora estilizar eles, isso será realizado no arquivo header.css
+
+Primeiramente vamos centralizar os icones no meio da tela, para isso precisamos colocar como 
+- display: flex; (torna um flex container, a partir daí podemos manipular todos os elementos filhos dentro do container)
+- justify-content: center; (horizontal)
+- align-items: center; (vertical)
+
+<fa-icon> é a tag que iremos usar, pois é a tag de cada icone filho no container
+
+- font-size: 27px (para aumentar o tamanho do icone)
+- margin: 0 10px (para deixar um espaço entre os icones)
+
+Queremos que o Botão do tema claro escuro fique possicionado no canto direito para isso usaremos a class layout
+- position: fixed;
+- right: 10px;
+
+Nesse momento podemos ver que o componente home está ficando em baixo do header, para que isso nao aconteça precisamos definir para que esse componente começe depois do header, para isso no arquivo home.component.css
+
+na class container
+- margin-top:5% (pode ser usado também px mas futuramente pensamos em deixar responsivo então poderemos alterar conforme o desenvolvimento e verificar qual usar)
+
+Nesse momento desejamos separar as div internas desse componente para isso vamos declarar suas div e entao add margin de 5% criando um espaço entre elas.
+
+### 5° Commit - Created Basic Styles Css
+
+*** 
+
+### 5° Passo
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+.container{
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+fa-icon{
+  margin: 0 10px;
+  font-size: 27px ;
+}
+.layout{
+  position: fixed;
+  right: 10px;
+}

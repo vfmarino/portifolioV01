@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+
+  --cor-preto: black;
+  --cor-branco: white;
+  --cor-bg: rgb(0, 33, 63);
+  --cor-button: rgb(6, 79, 173);
+
+
+  color: var(--cor-branco);
+  background-color: var(--cor-bg);
+
+}
