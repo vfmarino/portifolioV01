@@ -7,6 +7,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  isDarkTheme: boolean = true;
 
   constructor() { }
 
@@ -19,7 +20,17 @@ export class HeaderComponent implements OnInit {
   faInstagram = faInstagram
   faEnvelope = faEnvelope
 
+
+  toggleTheme(){
+    this.isDarkTheme=!this.isDarkTheme;
+    const html = document.documentElement;
+    html.setAttribute('data-theme', this.isDarkTheme ? 'dark':'light')
+
+  }
+
+
   ngOnInit(): void {
+
   }
 
 }

@@ -147,7 +147,44 @@ Nesse momento desejamos separar as div internas desse componente para isso vamos
 
 *** 
 
-### 5° Passo
+### 6° Passo
+
+Objetivo nesse passo é criar o estilo para mudar de tema claro para escuro.
+
+no arquivo header.component.html
+- criar click(toggleTheme()) (chamar a função que vai fazer a troca do estilo)
+- criar class do botao isdarktheme e!isdarktheme
+- criado div span com ngIF para mudar o nome ao clikar no botao.
+
+no arquivo ts do componente
+
+-isDarkTheme: boolean = true; (começa sempre com tema escuro)
+
+criar função toggleTheme()
+- this.isDarkTheme = !this.isDarkTheme;(nesse momento isDarkthem muda false para true trocando o que está escrito no botao)
+
+no arquivo principal index.html criar a class dentro da tag html
+- data-theme="dark" (para iniciar sempre no tema escuro)
+
+no arquivo Styles.css
+- criar as class dark e ligth (as variaves sao declaradas no principal e chamadas na class)
+
+novamente na função toggleTheme()
+const html = document.documentElement;
+html.setAttribute('data-theme', this.isDarkTheme ? 'dark':'light')
+
+Nessa etapa pegamos a tag principal HTML do documento index e definimos que deve mudar a classe que ela utiliza de acordo com a variavel isdarktheme para assim permitir trocar o tema.
+
+Testado e verificou-se que funcionou perfeitamente a troca de tema.
+
+### 6° Commit - Change Theme Dark/Light
+
+*** 
+
+### 7° Passo
+
+
+
 
 
 

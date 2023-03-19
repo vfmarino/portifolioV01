@@ -10,6 +10,9 @@
     <fa-icon [icon]="faWhatsapp"></fa-icon>
   </div>
   <div class="layout">
-    <button>Tema Claro/ Escuro</button>
+    <button class="btn" [class.btn-dark]="isDarkTheme" [class.btn-light]="!isDarkTheme" (click)="toggleTheme()">
+      <span class="theme-text" *ngIf="isDarkTheme">Light</span>
+      <span class="theme-text" *ngIf="!isDarkTheme"> Dark</span>
+    </button>
   </div>
 </div>

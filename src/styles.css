@@ -4,11 +4,20 @@
 
   --cor-preto: black;
   --cor-branco: white;
-  --cor-bg: rgb(0, 33, 63);
-  --cor-button: rgb(6, 79, 173);
+  --cor-bgdark: rgb(0, 33, 63);
+  --cor-bgligth: rgb(17, 137, 248);
+  --cor-button: rgb(0, 33, 63);
+  --cor-buttondark: rgb(6, 79, 173);
+
+}
 
 
+html[data-theme="light"]{
+  color: var(--cor-preto);
+  background-color: var(--cor-bgligth);
+}
+
+html[data-theme="dark"]{
   color: var(--cor-branco);
-  background-color: var(--cor-bg);
-
+  background-color: var(--cor-bgdark);
 }
