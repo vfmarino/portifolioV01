@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { HomeyoutubeComponent } from './youtube/homeyoutube/homeyoutube.component';
 import { HomePortifolioComponent } from './portifolio/home-portifolio/home-portifolio.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SideBarComponent } from './side-bar/side-bar.component';
+import { AvatarComponent } from './avatar/avatar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     FooterComponent,
     HomeComponent,
     HomeyoutubeComponent,
-    HomePortifolioComponent
+    HomePortifolioComponent,
+    SideBarComponent,
+    AvatarComponent
   ],
   imports: [
     BrowserModule,

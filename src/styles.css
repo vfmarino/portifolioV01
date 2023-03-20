@@ -7,26 +7,35 @@
   --cor-preto: black;
   --cor-branco: white;
 
-  --cor-button: rgb(0, 33, 63);
-  --cor-buttondark: rgb(6, 79, 173);
-  --cor-static-txt: rgb(55, 202, 255);
-  --cor-dynamic-txt: rgb(0, 105, 166);
+
 
 }
 
 
 html[data-theme="light"]{
-  --cor-bg: rgb(133, 185, 232);
+  --cor-bg: #4FC3FF;
   --cor-btn-txt: rgb(83, 129, 172);
   --cor-btn-bg: rgb(21, 34, 47);
+  --cor-sidebar: #001934;
+  --cor-sidebar-line: white;
+  --cor-button: rgb(0, 33, 63);
+  --cor-buttondark: rgb(6, 79, 173);
+  --cor-static-txt: rgb(4, 17, 29);
+  --cor-dynamic-txt: rgb(17, 43, 75);
   color: var(--cor-preto);
   background-color: var(--cor-bg);
 }
 
 html[data-theme="dark"]{
   --cor-bg: rgb(1, 23, 44);
-  --cor-btn-txt: rgb(21,34,47);
-  --cor-btn-bg: rgb(55,202,255);
+  --cor-btn-txt: white;
+  --cor-btn-bg: #0077cc;
+  --cor-sidebar: rgb(1, 8, 22);
+  --cor-sidebar-line: white;
+  --cor-button: rgb(0, 33, 63);
+  --cor-buttondark: rgb(6, 79, 173);
+  --cor-static-txt: rgb(55, 202, 255);
+  --cor-dynamic-txt: rgb(0, 105, 166);
   color: var(--cor-branco);
   background-color: var(--cor-bg);
 }

@@ -1,5 +1,5 @@
 .container{
-
+margin-left: 150px;
 }
 
 .cssWordEfect{
@@ -30,6 +30,44 @@
   font-size: 130px;
   font-style: italic;
 }
+.wrapper .static-txt > span{
+
+    animation: glow 10.2s ease-in-out infinite;
+}
+
+.wrapper .static-txt > span:nth-child(2){
+
+  animation-delay: 2s;
+}
+
+.wrapper .static-txt > span:nth-child(3){
+
+  animation-delay: 4s;
+}
+
+.wrapper .static-txt > span:nth-child(4){
+  animation-delay: 6s;
+}
+
+.wrapper .static-txt > span:nth-child(5){
+  animation-delay: 8s;
+}
+
+.wrapper .static-txt > span:nth-child(6){
+  animation-delay: 10.2s;
+}
+
+
+@keyframes glow{
+0%,100%{
+color: white;
+
+}
+10%,90%{
+  color: var(--cor-static-txt);
+
+  }
+}
 
 .wrapper .dynamic-txts{
   margin-left: 50px;
@@ -46,7 +84,7 @@
   position: relative;
   top: 0;
 
-  animation: slide 15s steps(5) infinite;
+  animation: slide 10s steps(5) infinite;
 }
 
 @keyframes slide{
@@ -69,7 +107,7 @@
   width: 100%;
   background: var(--cor-bg);
   border-left: 2px solid var(--cor-dynamic-txt);
-  animation: typing 3s steps(20) infinite;
+  animation: typing 2s steps(19) infinite;
 }
 
 @keyframes typing{
@@ -80,9 +118,9 @@
 }
 
 .static-txt1{
-  width: 50%;
+  width: 40%;
 }
-button{
+button {
   color: var(--cor-btn-txt);
   background: var(--cor-btn-bg);
   font-size: 30px;
@@ -91,9 +129,18 @@ button{
   padding: 30px;
   margin: 2%;
   border: none;
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: 5px 3px 5px 3px var(--cor-preto);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
+
+button:hover {
+  transform: translateY(-0.2em);
+  box-shadow: 10px 6px 10px 6px var(--cor-preto);
+}
+
+
 h4{
   font-weight: 300;
   font-size: 16px;

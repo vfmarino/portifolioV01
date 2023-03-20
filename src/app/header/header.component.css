@@ -5,12 +5,43 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 fa-icon{
   margin: 0 10px;
   font-size: 27px ;
+  cursor: pointer;
+}
+fa-icon:hover{
+
+  color: var(--cor-btn-bg);
 }
 .layout{
   position: fixed;
   right: 10px;
+}
+button {
+  color: var(--cor-btn-txt);
+  background: var(--cor-btn-bg);
+  font-size: 15px;
+  font-weight: 500;
+  font-style: italic;
+  padding: 10px;
+  margin: 2%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 3px 5px 3px var(--cor-preto);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(0.2em);
+  box-shadow: 10px 6px 10px 6px var(--cor-preto);
 }

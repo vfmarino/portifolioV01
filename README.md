@@ -209,8 +209,22 @@ Adicionado google fonts
 
 ### 8° Passo
 
+Nesse passo vamos criar barra lateral(Side Bar)
 
+No terminal "ng g c sideBar"
 
+usou-se o video https://www.youtube.com/watch?v=fY1OllQpIEw
+adaptamos para criar um pisca em branco na palavra Vatien
+
+estilizamos os botoes
+
+Criou-se também componente avatar
+
+### 8° Commit - SideBar/Avatar Component Vatien LED
+
+*** 
+
+### 8° Passo
 
 
 
