@@ -183,6 +183,26 @@ Testado e verificou-se que funcionou perfeitamente a troca de tema.
 
 ### 7° Passo
 
+Nesse passo o Objetivo é criar o Codigo Css para Ter a Palavra Vatien mudando conforme suas inciais
+V = Valuation
+At = Analise Tecnica
+I = investimentos
+e = Empreendedorismo
+n = noticias
+
+Seguiremos o tutorial abaixo:
+https://www.codingnepalweb.com/text-typing-animation-using-only-html-css/
+
+Pontos importantes que não sao explicados no video.
+
+Quantidade de linhas e o tamanho(height) correspondem a a distancia percorrida, como temos no tutorial acima 4 linhas com 90px, top fica com -4x90= -360px
+
+No caso do tempo deve-se ter o tempo para escrever a linha multiplicado pelo numero de linhas no caso 3s x 5 linhas tendo 15 segundos.
+
+Criado estilo para a tag button em home.component.css
+
+Adicionado google fonts
+
 
 
 

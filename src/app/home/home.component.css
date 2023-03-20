@@ -1,13 +1,107 @@
 .container{
-  margin-top: 5%;
+
 }
 
 .cssWordEfect{
-  margin: 5%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
 }
 .cssWordEfect1{
-  margin: 5%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
 }
 .buttons{
+  display:flex;
+  align-items: center;
+  justify-content: center;
   margin: 5%;
+}
+
+.wrapper{
+  display: inline-flex;
+}
+
+.wrapper .static-txt{
+  color: var(--cor-static-txt);
+  font-size: 130px;
+  font-style: italic;
+}
+
+.wrapper .dynamic-txts{
+  margin-left: 50px;
+  margin-top: 5%;
+  height: 100px;
+  line-height: 100px;
+  overflow: hidden;
+
+}
+.wrapper .dynamic-txts li{
+  color: var(--cor-dynamic-txt);
+  list-style: none;
+  font-size: 80px;
+  position: relative;
+  top: 0;
+
+  animation: slide 15s steps(5) infinite;
+}
+
+@keyframes slide{
+  100%{
+   top: -500px;
+  }
+}
+
+.dynamic-txts li span{
+  position: relative;
+
+}
+
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+
+  left: 0;
+  height: 70%;
+  width: 100%;
+  background: var(--cor-bg);
+  border-left: 2px solid var(--cor-dynamic-txt);
+  animation: typing 3s steps(20) infinite;
+}
+
+@keyframes typing{
+  100%{
+    left: 100%;
+    margin: 0 -35px 0 -35px;
+  }
+}
+
+.static-txt1{
+  width: 50%;
+}
+button{
+  color: var(--cor-btn-txt);
+  background: var(--cor-btn-bg);
+  font-size: 30px;
+  font-weight: 500;
+  font-style: italic;
+  padding: 30px;
+  margin: 2%;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 3px 5px 3px var(--cor-preto);
+}
+h4{
+  font-weight: 300;
+  font-size: 16px;
+}
+h2{
+  font-size: 60px;
+}
+h3{
+  font-size: 20px;
+  font-weight: 300;
 }
