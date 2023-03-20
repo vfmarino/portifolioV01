@@ -203,6 +203,11 @@ Criado estilo para a tag button em home.component.css
 
 Adicionado google fonts
 
+### 7° Commit - Created Animated Painel
+
+*** 
+
+### 8° Passo
 
 
 
