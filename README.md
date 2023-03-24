@@ -224,9 +224,18 @@ Criou-se também componente avatar
 
 *** 
 
-### 8° Passo
+### 9° Passo
 
+Nesse passo vamo adicionar funcionalidade aos icones para carregarem a rede social apropriada.
 
+Criação to componente sobre e rotas para botoes
 
+Criação do componente qualificações
+
+### 9° Commit - Route and C Sobre/quali
+
+*** 
+
+### 10° Passo
 
 

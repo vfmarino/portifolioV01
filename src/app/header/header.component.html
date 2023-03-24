@@ -1,13 +1,13 @@
 <div class="container">
   <div class="icons">
-    <fa-icon [icon]="faInstagram"  ></fa-icon>
-    <fa-icon [icon]="faFacebook"></fa-icon>
-    <fa-icon [icon]="faTwitter"></fa-icon>
-    <fa-icon [icon]="faYoutube"></fa-icon>
-    <fa-icon [icon]="faTelegram"></fa-icon>
-    <fa-icon [icon]="faGithub"></fa-icon>
-    <fa-icon [icon]="faEnvelope"></fa-icon>
-    <fa-icon [icon]="faWhatsapp"></fa-icon>
+    <fa-icon [icon]="faInstagram"  (click)="instagram()"></fa-icon>
+    <fa-icon [icon]="faFacebook" (click)="facebook()"></fa-icon>
+    <fa-icon [icon]="faTwitter" (click)="twitter()"></fa-icon>
+    <fa-icon [icon]="faYoutube" (click)="youtube()"></fa-icon>
+    <fa-icon [icon]="faTelegram" (click)="telegram()"></fa-icon>
+    <fa-icon [icon]="faGithub" (click)="github()"></fa-icon>
+    <fa-icon [icon]="faEnvelope" (click)="email()"></fa-icon>
+    <fa-icon [icon]="faWhatsapp" (click)="whatsapp()"></fa-icon>
   </div>
   <div class="layout">
     <button class="btn" [class.btn-dark]="isDarkTheme" [class.btn-light]="!isDarkTheme" (click)="toggleTheme()">

@@ -1,0 +1,16 @@
+.container1{
+  display: flex;
+}
+.container{
+  display: flex;
+  margin-left: 30%;
+  margin-top: 10%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40% ;
+}
+p{
+  margin-bottom: 2%;
+  font-weight: 200;
+}

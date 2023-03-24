@@ -11,6 +11,8 @@ import { HomePortifolioComponent } from './portifolio/home-portifolio/home-porti
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { AvatarComponent } from './avatar/avatar.component';
+import { SobreComponent } from './sobre/sobre.component';
+import { QualificacoesComponent } from './qualificacoes/qualificacoes.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { AvatarComponent } from './avatar/avatar.component';
     HomeyoutubeComponent,
     HomePortifolioComponent,
     SideBarComponent,
-    AvatarComponent
+    AvatarComponent,
+    SobreComponent,
+    QualificacoesComponent
   ],
   imports: [
     BrowserModule,
