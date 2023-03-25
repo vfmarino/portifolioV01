@@ -22,20 +22,24 @@ html[data-theme="light"]{
   --cor-buttondark: rgb(6, 79, 173);
   --cor-static-txt: rgb(4, 17, 29);
   --cor-dynamic-txt: rgb(17, 43, 75);
+  --cor-footer: #001934;
+  --cor-header: #001934;
   color: var(--cor-preto);
   background-color: var(--cor-bg);
 }
 
 html[data-theme="dark"]{
-  --cor-bg: rgb(1, 23, 44);
+  --cor-bg: rgb(3, 14, 29);
   --cor-btn-txt: white;
   --cor-btn-bg: #0077cc;
-  --cor-sidebar: rgb(1, 8, 22);
+  --cor-sidebar: rgb(0, 4, 12);
   --cor-sidebar-line: white;
   --cor-button: rgb(0, 33, 63);
   --cor-buttondark: rgb(6, 79, 173);
   --cor-static-txt: rgb(55, 202, 255);
   --cor-dynamic-txt: rgb(0, 105, 166);
+  --cor-footer: #000000;
+  --cor-header: #000000;
   color: var(--cor-branco);
   background-color: var(--cor-bg);
 }

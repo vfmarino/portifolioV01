@@ -1,10 +1,12 @@
 .container{
   position: fixed;
-  top: 10px;
+  top:0;
+  height: 6%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--cor-header);
 
 }
 .icons{

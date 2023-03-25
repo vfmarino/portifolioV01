@@ -9,6 +9,9 @@ export class HomeyoutubeComponent implements OnInit {
 
   constructor() { }
 
+  cadastro(){
+    alert("Estamos Trabalhando nessa Funcionalidade Aguarde")
+  }
   ngOnInit(): void {
   }
 

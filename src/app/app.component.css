@@ -2,6 +2,7 @@
   position: fixed;
   top:0;
    z-index: 2;
+   height: 100%;
 }
 .app-headear{
   position: fixed;
@@ -11,4 +12,10 @@
   position: fixed;
   z-index: 3;
 
+}
+.app-footer{
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }

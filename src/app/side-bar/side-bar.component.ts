@@ -12,6 +12,10 @@ export class SideBarComponent implements OnInit {
     private route: Router
   ) { }
 
+    home(){
+      this.route.navigate([''])
+    }
+
   youtube() {
     this.route.navigate(['youtube']);
   }
