@@ -238,4 +238,9 @@ Criação do componente qualificações
 
 ### 10° Passo
 
+Nesse passo adicionamos o conteudos Iniciais para as paginas de Portifolio e Apresentação e serviços do canal.
+Além disso foram feitas alterações de CSS para reajustar o Layout
 
+### 10° Commit - Initial Content and Css ajust
+
+*** 
