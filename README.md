@@ -244,3 +244,12 @@ Além disso foram feitas alterações de CSS para reajustar o Layout
 ### 10° Commit - Initial Content and Css ajust
 
 *** 
+### 11° Passo
+
+Criado contato componente
+
+Mudanças de CSS
+
+### 11° Commit - Contato C created and Css ajust
+
+*** 

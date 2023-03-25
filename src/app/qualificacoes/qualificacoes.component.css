@@ -12,8 +12,16 @@
   padding-left: 4%;
 }
 h2 {
- margin-top: 1%;
- margin-bottom: 1%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  background-color: var(--cor-btn-bg);
+  width: 98%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 3px 5px 3px var(--cor-preto);
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
 }
 li {
   font-weight: 200;

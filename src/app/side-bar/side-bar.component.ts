@@ -28,6 +28,9 @@ export class SideBarComponent implements OnInit {
   qualificacoes() {
     this.route.navigate(['qualificacoes'])
   }
+  contato(){
+    this.route.navigate(['contato'])
+  }
   jorivi() {
     window.open("https://www.instagram.com/jorivi_/", "_blank");
 

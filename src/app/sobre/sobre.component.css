@@ -17,4 +17,12 @@ p{
 }
 h1{
   margin-bottom: 2%;
+  background-color: var(--cor-btn-bg);
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 3px 5px 3px var(--cor-preto);
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
 }

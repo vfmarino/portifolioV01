@@ -5,6 +5,7 @@ import { HomePortifolioComponent } from './portifolio/home-portifolio/home-porti
 import { HomeyoutubeComponent } from './youtube/homeyoutube/homeyoutube.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { QualificacoesComponent } from './qualificacoes/qualificacoes.component';
+import { ContatoComponent } from './contato/contato.component';
 
 const routes: Routes = [
 
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'youtube', component: HomeyoutubeComponent },
   { path: 'portfolio', component: HomePortifolioComponent },
   { path: 'sobre', component: SobreComponent },
-  { path: 'qualificacoes', component: QualificacoesComponent }
+  { path: 'qualificacoes', component: QualificacoesComponent },
+  { path: 'contato', component:ContatoComponent},
 ];
 
 @NgModule({

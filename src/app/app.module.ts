@@ -13,6 +13,7 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { AvatarComponent } from './avatar/avatar.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { QualificacoesComponent } from './qualificacoes/qualificacoes.component';
+import { ContatoComponent } from './contato/contato.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { QualificacoesComponent } from './qualificacoes/qualificacoes.component'
     SideBarComponent,
     AvatarComponent,
     SobreComponent,
-    QualificacoesComponent
+    QualificacoesComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,
