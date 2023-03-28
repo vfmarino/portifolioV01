@@ -6,6 +6,7 @@ import { HomeyoutubeComponent } from './youtube/homeyoutube/homeyoutube.componen
 import { SobreComponent } from './sobre/sobre.component';
 import { QualificacoesComponent } from './qualificacoes/qualificacoes.component';
 import { ContatoComponent } from './contato/contato.component';
+import { GoogleFormsComponentComponent } from './google-forms-component/google-forms-component.component';
 
 const routes: Routes = [
 
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'sobre', component: SobreComponent },
   { path: 'qualificacoes', component: QualificacoesComponent },
   { path: 'contato', component:ContatoComponent},
+  { path : 'cadastro', component: GoogleFormsComponentComponent},
 ];
 
 @NgModule({

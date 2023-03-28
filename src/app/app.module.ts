@@ -15,6 +15,7 @@ import { SobreComponent } from './sobre/sobre.component';
 import { QualificacoesComponent } from './qualificacoes/qualificacoes.component';
 import { ContatoComponent } from './contato/contato.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { GoogleFormsComponentComponent } from './google-forms-component/google-forms-component.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AvatarComponent,
     SobreComponent,
     QualificacoesComponent,
-    ContatoComponent
+    ContatoComponent,
+    GoogleFormsComponentComponent
   ],
   imports: [
     BrowserModule,

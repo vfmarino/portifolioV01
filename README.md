@@ -283,6 +283,16 @@ importante verificar se os nomes de indentificação no arquivo sao os mesmos, i
 *** 
 ### 13° Passo
 
+Nesse passo criamos um componente forms para adicionar um formulario do google para que os usuarios castrarem deixando seu nome email telefon e eintereses, utilizamos o google forms para nao utilizar um back ende e precisar de um servidor somente para isso, no momento o site é apenas uma apresentação do trabalho.
+
+sendo assim criou-se um formulario no google forms, e copiado seu html que é acidionado no arquivo html do componente.
+
+o arquivo ts do componente le as informaçoes nesse "iframe" faz com que o formulario seja carregado dentro do website, a parte ruim é q nao tem a possibilidade de configuar esse cadastro com css para deixar mais atrativo.
+
+### 13° Commit - Created google forms to Register Cliente
+
+*** 
+### 14° Passo
 
 
 
