@@ -253,3 +253,36 @@ Mudanças de CSS
 ### 11° Commit - Contato C created and Css ajust
 
 *** 
+### 12° Passo
+
+Nesse momento vamos adicionar a função de enviar uma mensagem para o email de contato.
+
+Primeiramente Criamos a conta no email.js com email teste, depois criamos um serviço para configurar o email e enviamos um email de teste, e depois foi criado um template, tudo isso foi realizado no site do email.js
+
+Para instalar a biblioteca no angular usamos: "npm install emailjs-com"
+devendo ser importado como "import emailjs from 'emailjs-com';"
+
+aparece 2 vunerabilidades no terminal dizendo para usar npm audit fix para resolver o problema, o mesmo foi utilizado apos o comando abaixo para criar o serviço e sumiu as vunerabilidades.
+
+criar o serviço com "ng generate service emailjs"
+nesse momento vou criado uma pasta manualmente como nome service para separar de outros possiveis serivices futuros.
+momevndo manualmente os arquivos de serviço para essa pasta.
+
+Criou-se o codigo em emailjs.service.ts
+
+Pontos importantes, devemos lembrar de adicionar os imports no arquivo app.module
+- FormsModule,
+- ReactiveFormsModule
+
+Sem eles o formulario não funciona e da erro.
+
+importante verificar se os nomes de indentificação no arquivo sao os mesmos, indentificação correta é primordial para funcionar.
+
+### 12° Commit - Function of emailJs created
+
+*** 
+### 13° Passo
+
+
+
+

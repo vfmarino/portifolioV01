@@ -14,6 +14,7 @@ import { AvatarComponent } from './avatar/avatar.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { QualificacoesComponent } from './qualificacoes/qualificacoes.component';
 import { ContatoComponent } from './contato/contato.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,9 @@ import { ContatoComponent } from './contato/contato.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
