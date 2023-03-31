@@ -294,5 +294,19 @@ o arquivo ts do componente le as informaçoes nesse "iframe" faz com que o formu
 *** 
 ### 14° Passo
 
+Nesse passo vamos deixar o site responsivo
+
+margin:0 auto( 0 define a margem superior(top ou vertical), como zero e auto centraliza o conteudo na horizontal deixando sempre a mesma margem igual tanto da esquerda quanto na direita)
+
+O componente app-home está começando em baixo da component side bar e queremos que ele comece ao lado, isso acontece pq os outros componentes dentro do arquivo app.component são fixos e a tag de rotas "router-outlet não, sendo assim envolvemos ele em uma div para dar margem a essa div e o conteudo começar na margin definida.
+
+Como mudamos os tamanhos foi necessário reconfigurar todo o espaçamento que estavam em PX mudamos para vh e vw, buscando deixar responsivo, busca sempre usar essa forma pois fica mais facil fazer a resposividade no proximos projetos.
+
+### 14° Commit - Responsive part 1
+
+*** 
+### 15° Passo
+
+
 
 

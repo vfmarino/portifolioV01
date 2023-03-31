@@ -2,7 +2,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  width: 170px;
+  width: 9vw;
   height: 103%;
   background: var(--cor-sidebar);
   margin-top: -1%;

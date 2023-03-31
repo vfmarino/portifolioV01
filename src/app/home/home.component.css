@@ -1,107 +1,108 @@
-.container{
-margin-left: 150px;
+.container {
+  width: 100%;
+  margin: 5% auto;
 }
 
-.cssWordEfect{
-  display:flex;
+.cssWordEfect {
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2%;
 }
-.cssWordEfect1{
-  display:flex;
+.cssWordEfect1 {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 3vw;
   align-items: center;
   justify-content: center;
-  margin: 2%;
+  margin: 6vh auto;
+  border: 2px solid var(--cor-branco);
+  border-radius: 5px;
+  margin-left: 10vw;
 }
-.buttons{
-  display:flex;
+.buttons {
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin: 5%;
+  width: 100%;
 }
 
-.wrapper{
-  display: inline-flex;
+.wrapper {
+  display: flex;
 }
 
-.wrapper .static-txt{
+.wrapper .static-txt {
   color: var(--cor-static-txt);
-  font-size: 130px;
+  font-size: 5vw;
   font-style: italic;
 }
-.wrapper .static-txt > span{
-
-    animation: glow 10.2s ease-in-out infinite;
+.wrapper .static-txt > span {
+  animation: glow 10.2s ease-in-out infinite;
 }
 
-.wrapper .static-txt > span:nth-child(2){
-
+.wrapper .static-txt > span:nth-child(2) {
   animation-delay: 2s;
 }
 
-.wrapper .static-txt > span:nth-child(3){
-
+.wrapper .static-txt > span:nth-child(3) {
   animation-delay: 4s;
 }
 
-.wrapper .static-txt > span:nth-child(4){
+.wrapper .static-txt > span:nth-child(4) {
   animation-delay: 6s;
 }
 
-.wrapper .static-txt > span:nth-child(5){
+.wrapper .static-txt > span:nth-child(5) {
   animation-delay: 8s;
 }
 
-.wrapper .static-txt > span:nth-child(6){
+.wrapper .static-txt > span:nth-child(6) {
   animation-delay: 10.2s;
 }
 
-
-@keyframes glow{
-0%,100%{
-color: white;
-
-}
-10%,90%{
-  color: var(--cor-static-txt);
-
+@keyframes glow {
+  0%,
+  100% {
+    color: white;
+  }
+  10%,
+  90% {
+    color: var(--cor-static-txt);
+    top: -30vw;
   }
 }
 
-.wrapper .dynamic-txts{
-  margin-left: 50px;
-  margin-top: 5%;
-  height: 100px;
-  line-height: 100px;
+.wrapper .dynamic-txts {
+  height: 6vw;
+  line-height: 6vw;
   overflow: hidden;
+  margin-left: 2vw;
+  margin-top: 1.5vh;
 
 }
-.wrapper .dynamic-txts li{
+.wrapper .dynamic-txts li {
   color: var(--cor-dynamic-txt);
   list-style: none;
-  font-size: 80px;
+  font-size: 5vw;
   position: relative;
   top: 0;
 
   animation: slide 10s steps(5) infinite;
 }
 
-@keyframes slide{
-  100%{
-   top: -500px;
+@keyframes slide {
+  100% {
+    top: -30vw;
   }
 }
 
-.dynamic-txts li span{
+.dynamic-txts li span {
   position: relative;
-
 }
 
-.dynamic-txts li span::after{
+.dynamic-txts li span::after {
   content: "";
   position: absolute;
-
   left: 0;
   height: 70%;
   width: 100%;
@@ -110,45 +111,43 @@ color: white;
   animation: typing 2s steps(19) infinite;
 }
 
-@keyframes typing{
-  100%{
+@keyframes typing {
+  100% {
     left: 100%;
-    margin: 0 -35px 0 -35px;
+    margin: 0 -2vw 0 -2vw;
   }
 }
 
-.static-txt1{
-  width: 40%;
-}
 button {
   color: var(--cor-btn-txt);
+  width: 50%;
   background: var(--cor-btn-bg);
-  font-size: 30px;
+  font-size: 1.5vw;
   font-weight: 500;
   font-style: italic;
-  padding: 30px;
+  padding: 2vw;
   margin: 2%;
   border: none;
   border-radius: 5px;
-  box-shadow: 5px 3px 5px 3px var(--cor-preto);
+  box-shadow: 0.5vw 0.5vw 0.5vw 0.5vw var(--cor-preto);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
 button:hover {
   transform: translateY(-0.2em);
-  box-shadow: 10px 6px 10px 6px var(--cor-preto);
+  box-shadow: 0.7vw 0.7vw 0.7vw 0.7vw var(--cor-preto);
 }
 
-
-h4{
+h4 {
   font-weight: 300;
-  font-size: 16px;
+  font-size: .8vw;
 }
-h2{
-  font-size: 60px;
+h2 {
+  font-size: 2.5vw;
 }
-h3{
-  font-size: 20px;
+h3 {
+  font-size: 0.9vw;
   font-weight: 300;
+  margin-bottom: 3vh;
 }
