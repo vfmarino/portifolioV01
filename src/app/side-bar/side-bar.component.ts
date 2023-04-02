@@ -7,15 +7,15 @@ import { Router } from '@angular/router';
   styleUrls: ['./side-bar.component.css']
 })
 export class SideBarComponent implements OnInit {
-
+  menuAberto = true;
+  screenSize = false;
   constructor(
     private route: Router
   ) { }
 
-    home(){
-      this.route.navigate([''])
-    }
-
+  home() {
+    this.route.navigate([''])
+  }
   youtube() {
     this.route.navigate(['youtube']);
   }
@@ -28,7 +28,7 @@ export class SideBarComponent implements OnInit {
   qualificacoes() {
     this.route.navigate(['qualificacoes'])
   }
-  contato(){
+  contato() {
     this.route.navigate(['contato'])
   }
   jorivi() {
@@ -36,7 +36,16 @@ export class SideBarComponent implements OnInit {
 
   }
 
+  menu(){
+    this.menuAberto=!this.menuAberto;
+  }
+
   ngOnInit(): void {
+    if(this.screenSize=window.innerWidth>425){
+      this.menuAberto=true;
+    }else{
+      this.menuAberto=false;
+    }
   }
 
 }

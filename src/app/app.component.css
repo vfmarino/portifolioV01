@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 998;
 }
 
 .app-header {
@@ -28,4 +28,44 @@
   position: fixed;
   width: 100%;
   bottom: 0;
+}
+
+  /* Estilos para telas maiores que 4k */
+@media only screen and (min-width: 2560px) {
+
+  .app-side-bar {
+  }
+  .app-header {
+  }
+  .content-wrapper {
+  }
+  .app-avatar {
+  }
+  .app-footer {
+  }
+
+}
+ /* Estilos para laptops com resolução alta (Laptop L) */
+@media only screen and (min-width: 1440px) and (max-width: 2560px) {
+
+}
+  /* Estilos para laptops com resolução média (Laptop) */
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+
+}
+  /* Estilos para tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+  /* Estilos para smartphones maiores (Mobile L) */
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+
+}
+  /* Estilos para smartphones médios (Mobile M) */
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+
+}
+  /* Estilos para smartphones menores (Mobile S) */
+@media only screen and (max-width: 375px) {
+
 }

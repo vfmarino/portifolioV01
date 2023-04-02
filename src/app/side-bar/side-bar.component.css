@@ -1,14 +1,18 @@
-.container{
+.container1 {
+  width: 12%;
+}
+.container {
   position: fixed;
   display: flex;
   flex-direction: column;
-  width: 9vw;
+  width: 12%;
   height: 103%;
   background: var(--cor-sidebar);
   margin-top: -1%;
   color: var(--cor-branca);
+  z-index: 1;
 }
-.logo{
+.logo {
   width: 90%;
   margin-top: 15%;
   margin-bottom: 5%;
@@ -16,25 +20,130 @@
   display: flex;
   justify-content: center;
 }
-.btn{
+.btn {
   margin-top: 20%;
   display: flex;
   flex-direction: column;
-  color: var(--cor-branca);
+  color: var(--cor-branco);
 }
 
-button{
+.btn button {
   background: none;
   color: var(--cor-branca);
   padding: 10px;
   border: none;
   border-bottom: 1px solid var(--cor-sidebar-line);
-
-  font-size: 15px;
+  font-size: 1vw;
+  padding: 0.7vw;
   font-weight: 400;
   cursor: pointer;
 }
-button:hover{
+button:hover {
   color: var(--cor-btn-bg);
+}
+.menu {
+  position: absolute;
+  display: none;
+  background-color: var(--cor-sidebar);
+  margin: 3vw;
+  z-index: 2;
+  margin-top: 4vw;
+  width: 10px;
+  height: 3px;
+  border: none;
+  cursor: pointer;
+}
+.menu span {
+  display: none;
+  margin-bottom: 3px;
+  width: 15px;
+  height: 2px;
+  border-radius: 3px;
+  background-color: var(--cor-branco);
+}
 
+.menu2 {
+  position: absolute;
+  display: none;
+  background-color: var(--cor-sidebar);
+  margin: 3vw;
+  z-index: 2;
+  margin-top: 4vw;
+  width: 10px;
+  height: 3px;
+  border: none;
+  cursor: pointer;
+}
+.menu2 span {
+  display: none;
+  margin-bottom: 3px;
+  width: 15px;
+  height: 2px;
+  border-radius: 3px;
+  background-color: var(--cor-btn-bg);
+}
+
+/* Estilos para telas maiores que 4k */
+@media only screen and (max-width: 2560px) {
+}
+
+/* Estilos para laptops com resolução alta (Laptop L) */
+@media only screen and (max-width: 1440px) {
+}
+
+/* Estilos para laptops com resolução média (Laptop) */
+@media only screen and (max-width: 1024px) {
+}
+
+/* Estilos para tablets */
+@media only screen and (max-width: 768px) {
+}
+
+/* Estilos para smartphones maiores (Mobile L) */
+@media only screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+  }
+  .menu{
+    display: block;
+  }
+  .menu span {
+    display: block;
+  }
+  .logo {
+    margin: 5% auto;
+    padding: 0;
+
+  }
+  .logo img {
+    width: 150px;
+  }
+  .btn button {
+    font-size: 5vw;
+    font-weight: 200;
+  }
+  .menu2{
+    display: block;
+  }
+  .menu2 span {
+    display: block;
+  }
+
+  .menu2 span:nth-child(1){
+    transform: rotate(45deg) translate(4px, 4px);
+  }
+  .menu2 span:nth-child(2){
+    transform: rotate(-45deg)translate(0px, 0px);
+  }
+  .menu2 span:nth-child(3){
+    display: none;
+  }
+}
+
+/* Estilos para smartphones médios (Mobile M) */
+@media only screen and (max-width: 375px) {
+}
+
+/* Estilos para smartphones menores (Mobile S) */
+@media only screen and (max-width: 320px) {
 }

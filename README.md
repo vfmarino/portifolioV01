@@ -307,6 +307,35 @@ Como mudamos os tamanhos foi necessário reconfigurar todo o espaçamento que es
 *** 
 ### 15° Passo
 
+Vamos continuar com a responsividade e usaremo @media only screen and (max-width: ), onde definiremos mudanças para deixar o site mais adaptivo de acordo com a tamnho de tela começaremos com o maior tamanho e vamos diminuindo, os tamanhos que vamos variar serão:
+
+1 - max-width: 2560px(maior que usaremos) representa 4k
+2 - max-width: 1440px - Representa Laptop L
+3 - max-width: 1024px - Representa Laptop
+4 - max-width: 768px - Representa Tablet
+5 - max-width: 425px - Representa Mobile L
+6 - max-width: 375px - Representa Mobile M
+7 - max-width: 320px - Representa Mobile S
+
+começamos pela side-bar, definimos ela com tamanho de 12% até o tamanho de tablet, ja para mobile queremos criar um botão hambuger, que no click, tranforme-se em X e apareceça a side bar, isso pois ela ocuparia muito espaço na tela para esses dispositivos.
+
+Criamos um novo buttom e especificamos a classe .btn button que já tinham pois a mesma não poderiamos ter um button geral nesse caso, sendo uma boa pratica buscar sempre especificar qual button esta estilizando dessa forma.
+
+criamos entao um button com class menu e 3 span que são as 3 linhas do botao hamburger e deixamos como display none até o tamanho de tablet, quando temos os tamanhos mobile trocamos ele para display block e o restante para display none(logo e botoes na side bar), porém aqui ele ainda nao faz o X.
+
+Antes disso quero remover a side bar que é fixa e seu backgroung continua aparecendo, em 100% da vertical, alteramos então para 10%, esse valor pode mudar mais a frente pois estou achando um pouco grande, reduzimos para que o botao ficasse dentro do header até o momento.
+
+Colocamos a Classe menu como positon absolute para ficar no inicio quando a tela está menor que 425% ela cobre o header, senao ela incia apos o reader, alem disso foram feitos pequenos ajuste nos tamanho para ajustar a resposividade.
+
+vamos colocar uma funçao nesse botao que ao click aparece novamente a sidebar, para isso usamos o ngIf do angular Menu aberto, caso esteja falso ele fechar caso seja true ele aparece, na função on init é verificado o tamanho da tela, pois caso a tela seja maior que 425 a side bar deve sempre ser visivel, quando a tela é menor que 425 ai ela recebe falso ficando fechada, ao clicka no botao hambuer ela muda para verdadeiro e aparece o menu na tela inteira.
+
+Falta fazer que aparece o X quando a side bar for true, e para isso precisamos mudar o css dela, ou seja atribuir outra classe para mudar a formatação, usando entao : [class]="menuAberto ? 'menu2' : 'menu'" quando ela recebe menu2 vira um X
+
+### 15° Commit - Responsive part 2 SideBar
+
+*** 
+### 16° Passo
+
 
 
 

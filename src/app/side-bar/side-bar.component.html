@@ -1,7 +1,14 @@
-<div class="container">
+<button [class]="menuAberto ? 'menu2' : 'menu'" (click)="menu()">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+<div class="container" *ngIf="menuAberto">
   <div class="logo">
     <img class="logo" src="../../assets/img/logo1.png">
   </div>
+
   <div class="btn">
     <button (click)="home()">Home</button>
     <button (click)="sobre()">Sobre</button>
