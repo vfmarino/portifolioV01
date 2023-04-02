@@ -336,6 +336,15 @@ Falta fazer que aparece o X quando a side bar for true, e para isso precisamos m
 *** 
 ### 16° Passo
 
+Quando clickamos em algum botao do menu ele carrega a pagina porém nao fecha side bar queremos q ele feche 
+sendo assim temos que adicionar dentro de cada função de cada botao, chamaremos novamente ngOnInit, pois assim verifica qual o tamanho se o tamanho maior que 425px ela mantem a sidebar true, senao false e fecha ela. Sendo assim finalizado a SideBar.
+
+Algumas Alterações em header
+
+### 16° Commit - Responsive part 3 SideBar and header
+
+*** 
+
 
 
 

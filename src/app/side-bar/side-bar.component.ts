@@ -14,25 +14,32 @@ export class SideBarComponent implements OnInit {
   ) { }
 
   home() {
-    this.route.navigate([''])
+    this.route.navigate(['']);
+    this.ngOnInit();
   }
   youtube() {
     this.route.navigate(['youtube']);
+    this.ngOnInit();
   }
   portfolio() {
-    this.route.navigate(['portfolio'])
+    this.route.navigate(['portfolio']);
+    this.ngOnInit();
   }
   sobre() {
-    this.route.navigate(['sobre'])
+    this.route.navigate(['sobre']);
+    this.ngOnInit();
   }
   qualificacoes() {
-    this.route.navigate(['qualificacoes'])
+    this.route.navigate(['qualificacoes']);
+    this.ngOnInit();
   }
   contato() {
-    this.route.navigate(['contato'])
+    this.route.navigate(['contato']);
+    this.ngOnInit();
   }
   jorivi() {
     window.open("https://www.instagram.com/jorivi_/", "_blank");
+    this.ngOnInit();
 
   }
 

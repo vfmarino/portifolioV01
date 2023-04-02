@@ -1,41 +1,39 @@
-.container{
+.container {
   position: fixed;
-  top:0;
-  height: 6%;
+  top: 0;
+  height: 6vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--cor-header);
-
 }
-.icons{
+.icons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-fa-icon{
-  margin: 0 10px;
-  font-size: 27px ;
+fa-icon {
+  margin: 0 1vw;
+  font-size: 2vw;
   cursor: pointer;
 }
-fa-icon:hover{
-
+fa-icon:hover {
   color: var(--cor-btn-bg);
 }
-.layout{
+.layout {
   position: fixed;
   right: 10px;
 }
 button {
   color: var(--cor-btn-txt);
   background: var(--cor-btn-bg);
-  font-size: 15px;
+  font-size: 0.7vw;
   font-weight: 500;
   font-style: italic;
-  padding: 10px;
-  margin: 2%;
+  padding: 0.3vw;
+  margin: 0.5vw;
   border: none;
   border-radius: 5px;
   box-shadow: 5px 3px 5px 3px var(--cor-preto);
@@ -46,4 +44,49 @@ button {
 button:hover {
   transform: translateY(0.2em);
   box-shadow: 10px 6px 10px 6px var(--cor-preto);
+}
+/* Estilos para telas maiores que 4k */
+@media only screen and (max-width: 2560px) {
+}
+
+/* Estilos para laptops com resolução alta (Laptop L) */
+@media only screen and (max-width: 1440px) {
+}
+
+/* Estilos para laptops com resolução média (Laptop) */
+@media only screen and (max-width: 1024px) {
+  fa-icon {
+    margin: 0 1vw;
+    font-size: 2.7vw;
+  }
+  button {
+    font-size: 1vw;
+    font-style: italic;
+    padding: 0.5vw;
+    margin: 0.5vw;
+  }
+}
+
+/* Estilos para tablets */
+@media only screen and (max-width: 768px) {
+  fa-icon {
+    margin: 0 1vw;
+    font-size: 3vw;
+  }
+}
+
+/* Estilos para smartphones maiores (Mobile L) */
+@media only screen and (max-width: 425px) {
+  fa-icon {
+    margin: 0 1.5vw;
+    font-size: 5vw;
+  }
+}
+
+/* Estilos para smartphones médios (Mobile M) */
+@media only screen and (max-width: 375px) {
+}
+
+/* Estilos para smartphones menores (Mobile S) */
+@media only screen and (max-width: 320px) {
 }
