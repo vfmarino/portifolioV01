@@ -1,10 +1,59 @@
 .container{
   bottom: 0;
   width: 100%;
+  font-size: 1vw;
   font-weight: 200;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 50px;
   background-color: var(--cor-footer);
+}
+/* Estilos para telas maiores que 4k */
+@media only screen and (max-width: 2560px) {
+
+  .container{
+    font-size: 0.9vw;
+  }
+}
+
+/* Estilos para laptops com resolução alta (Laptop L) */
+@media only screen and (max-width: 1440px) {
+  .container{
+    font-size: 1vw;
+  }
+
+}
+
+/* Estilos para laptops com resolução média (Laptop) */
+@media only screen and (max-width: 1024px) {
+  .container{
+    font-size: 1.3vw;
+  }
+
+}
+
+/* Estilos para tablets */
+@media only screen and (max-width: 768px) {
+  .container{
+    font-size: 1.6vw;
+  }
+
+}
+
+/* Estilos para smartphones maiores (Mobile L) */
+@media only screen and (max-width: 425px) {
+  .container{
+    height: 3vh;
+    font-size: 1.8vw;
+  }
+
+}
+
+/* Estilos para smartphones médios (Mobile M) */
+@media only screen and (max-width: 375px) {
+}
+
+/* Estilos para smartphones menores (Mobile S) */
+@media only screen and (max-width: 320px) {
 }

@@ -151,3 +151,43 @@ h3 {
   font-weight: 300;
   margin-bottom: 3vh;
 }
+
+/* Estilos para telas maiores que 4k */
+@media only screen and (max-width: 2560px) {
+}
+
+/* Estilos para laptops com resolução alta (Laptop L) */
+@media only screen and (max-width: 1440px) {
+
+}
+
+/* Estilos para laptops com resolução média (Laptop) */
+@media only screen and (max-width: 1024px) {
+  .container{
+    margin-top: 10%;
+  }
+}
+
+/* Estilos para tablets */
+@media only screen and (max-width: 768px) {
+  .container{
+    margin-top: 13%;
+  }
+}
+
+/* Estilos para smartphones maiores (Mobile L) */
+@media only screen and (max-width: 425px) {
+  .container{
+    margin-top: 25%;
+    font-size: 10vw;
+  }
+
+}
+
+/* Estilos para smartphones médios (Mobile M) */
+@media only screen and (max-width: 375px) {
+}
+
+/* Estilos para smartphones menores (Mobile S) */
+@media only screen and (max-width: 320px) {
+}

@@ -30,8 +30,8 @@ button {
   color: var(--cor-btn-txt);
   background: var(--cor-btn-bg);
   font-size: 0.7vw;
-  font-weight: 500;
   font-style: italic;
+  font-weight: 200;
   padding: 0.3vw;
   margin: 0.5vw;
   border: none;
@@ -39,6 +39,9 @@ button {
   box-shadow: 5px 3px 5px 3px var(--cor-preto);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+}
+button span{
+  font-weight: 400;
 }
 
 button:hover {
@@ -51,6 +54,12 @@ button:hover {
 
 /* Estilos para laptops com resolução alta (Laptop L) */
 @media only screen and (max-width: 1440px) {
+  button {
+    font-size: 1.1vw;
+    font-style: italic;
+    padding: 0.5vw;
+    margin: 0.5vw;
+  }
 }
 
 /* Estilos para laptops com resolução média (Laptop) */
@@ -73,6 +82,12 @@ button:hover {
     margin: 0 1vw;
     font-size: 3vw;
   }
+  button {
+    font-size: 1.3vw;
+    font-style: italic;
+    padding: 0.57vw;
+    margin: 0.57vw;
+  }
 }
 
 /* Estilos para smartphones maiores (Mobile L) */
@@ -80,6 +95,13 @@ button:hover {
   fa-icon {
     margin: 0 1.5vw;
     font-size: 5vw;
+  }
+  button {
+    font-size: 2.5vw;
+    font-style: italic;
+    padding: 0.5vw;
+    margin: 0.5vw;
+    font-weight: 100;
   }
 }
 

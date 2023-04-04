@@ -344,6 +344,15 @@ Algumas Alterações em header
 ### 16° Commit - Responsive part 3 SideBar and header
 
 *** 
+### 17° Passo
+
+Ajustes de resposividade no botao de header
+
+Ajustes de resposividade em footer
+
+Pequeno ajuste na margin em home component
+
+### 17° Commit - Responsive part 4 Home and footer
 
 
 
