@@ -354,6 +354,14 @@ Pequeno ajuste na margin em home component
 
 ### 17° Commit - Responsive part 4 Home and footer
 
+*** 
+### 18° Passo
 
+side bar precisava arruma o hover de btn button
 
+Ajustes de resposividade em varios components
 
+### 18° Commit - Responsive part 5
+
+*** 
+### 19° Passo

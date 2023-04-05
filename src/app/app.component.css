@@ -13,7 +13,7 @@
 }
 
 .content-wrapper {
-  margin-left: 9vw; /* Largura da sidebar */
+  margin-left: 17vw; /* Largura da sidebar */
   margin-top: 3%;
 
 }
@@ -30,42 +30,15 @@
   bottom: 0;
 }
 
-  /* Estilos para telas maiores que 4k */
-@media only screen and (min-width: 2560px) {
 
-  .app-side-bar {
-  }
-  .app-header {
-  }
-  .content-wrapper {
-  }
-  .app-avatar {
-  }
-  .app-footer {
-  }
-
+@media only screen and (max-width: 768px) {
+.app-avatar {
+  display: none;
 }
- /* Estilos para laptops com resolução alta (Laptop L) */
-@media only screen and (min-width: 1440px) and (max-width: 2560px) {
-
+.app-side-bar{
+  width: 25vw;
 }
-  /* Estilos para laptops com resolução média (Laptop) */
-@media only screen and (min-width: 1024px) and (max-width: 1440px) {
-
+.content-wrapper{
+  margin-left: 25vw;
 }
-  /* Estilos para tablets */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-}
-  /* Estilos para smartphones maiores (Mobile L) */
-@media only screen and (min-width: 425px) and (max-width: 768px) {
-
-}
-  /* Estilos para smartphones médios (Mobile M) */
-@media only screen and (min-width: 375px) and (max-width: 425px) {
-
-}
-  /* Estilos para smartphones menores (Mobile S) */
-@media only screen and (max-width: 375px) {
-
 }

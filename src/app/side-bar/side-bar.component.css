@@ -36,10 +36,11 @@
   font-size: 1vw;
   padding: 0.7vw;
   font-weight: 400;
-  cursor: pointer;
+
 }
-button:hover {
+.btn button:hover {
   color: var(--cor-btn-bg);
+  cursor: pointer;
 }
 .menu {
   position: absolute;
@@ -97,6 +98,13 @@ button:hover {
 
 /* Estilos para tablets */
 @media only screen and (max-width: 768px) {
+  .container{
+    width: 20vw;
+  }
+  .btn button {
+    font-size: 2vw;
+    font-weight: 200;
+  }
 }
 
 /* Estilos para smartphones maiores (Mobile L) */
