@@ -224,8 +224,53 @@ h3 {
 /* Estilos para smartphones maiores (Mobile L) */
 @media only screen and (max-width: 425px) {
   .container {
-    margin-top: 25%;
+    margin-top: 10vh;
     font-size: 10vw;
+  }
+  .wrapper{
+    margin: 0 auto;
+
+  }
+  .wrapper .static-txt{
+    font-size: 15vw;
+    margin: 0 auto;
+  }
+  .wrapper .dynamic-txts li{
+    font-size: 8vw;
+  }
+  .wrapper .dynamic-txts  {
+    height: 9vw;
+    line-height: 9vw;
+  }
+  @keyframes slide {
+    100% {
+      top: -45vw;
+    }
+  }
+  .cssWordEfect1{
+    margin: 4vh auto;
+
+  }
+  h2 {
+    font-size: 6vw;
+  }
+  h3 {
+    font-size: 4vw;
+    margin-top: 3vh;
+  }
+  h4 {
+    font-size: 3vw;
+  }
+  .cssWordEfect1{
+    width: 70%;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: column;
+  }
+  button{
+    font-size: 5vw;
+    width: 90%;
   }
 }
 

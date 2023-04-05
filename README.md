@@ -365,3 +365,9 @@ Ajustes de resposividade em varios components
 
 *** 
 ### 19° Passo
+
+Ajustes de resposividade em varios components
+
+Finalizado component home
+
+### 19° Commit - Responsive part 6 - Finished Home C
