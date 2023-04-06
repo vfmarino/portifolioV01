@@ -371,3 +371,25 @@ Ajustes de resposividade em varios components
 Finalizado component home
 
 ### 19° Commit - Responsive part 6 - Finished Home C
+
+*** 
+### 19° Passo
+
+Ajustamos o componente youtube e criamos um menu para renderizar o conteudo da pagina, nesse momento o conteudo é pequeno mais futuramente deve ter bastante conteudo nessa pagina e será importante esse menu para rolagem mais rapida para onde desejamos.
+
+scrollTo(elementId: string): void {
+    const element = document.getElementById(elementId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+Isso só é possivel devido a função acima que encontra o id no html e direciona para o conteudo com o id indentificado.
+
+fizemos um teste para resposividade apenas no mobile do component youtube, falta adicionar para os outros tamanhos.
+
+### 20° Commit - Responsive part 7 - youtube component
+
+*** 
+### 21° Passo
+

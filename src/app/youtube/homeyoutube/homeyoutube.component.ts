@@ -15,6 +15,13 @@ export class HomeyoutubeComponent implements OnInit {
   cadastro(){
     this.route.navigate(['cadastro'])
   }
+  scrollTo(elementId: string): void {
+    const element = document.getElementById(elementId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
   ngOnInit(): void {
   }
 
