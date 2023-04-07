@@ -94,6 +94,14 @@
 
 /* Estilos para laptops com resolução média (Laptop) */
 @media only screen and (max-width: 1024px) {
+  .container{
+    width: 15vw;
+  }
+  .btn button {
+    font-size: 1.5vw;
+    font-weight: 300;
+  }
+
 }
 
 /* Estilos para tablets */

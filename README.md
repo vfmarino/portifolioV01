@@ -422,6 +422,15 @@ Nessa função o objetivo é que ela role um pouco acima do id, para ficar visua
 7 - window.scrollTo({top, behavior: 'smooth'});: Rola a página para a posição final, usando a função scrollTo do objeto window. A posição final é definida pelo objeto { top, behavior: 'smooth' }, que especifica a posição final top e o comportamento suave de rolagem behavior: 'smooth'.
 
 ### 21° Commit - Scrollto -70px and explained
+
 *** 
 
 ### 22° Passo
+
+Ajustando a Resposividade em youtube component.
+
+### 22° Commit - Responsive part 8 - youtube component
+
+*** 
+
+### 23° Passo

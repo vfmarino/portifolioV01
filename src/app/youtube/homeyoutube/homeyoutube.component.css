@@ -1,9 +1,8 @@
 .container {
   margin-bottom: 5%;
   display: flex;
-  margin: 9% auto;
+  margin: 9vh auto;
 }
-
 .container1 {
   display: flex;
   flex-direction: column;
@@ -48,13 +47,11 @@ button {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
-
 button:hover {
   transform: translateY(-0.2em);
   box-shadow: 10px 6px 10px 6px var(--cor-preto);
 }
 .menu {
-
   position: fixed;
 
   z-index: 809;
@@ -70,36 +67,93 @@ button:hover {
   margin: 0.3vh;
 }
 
-@media only screen and (max-width: 425px) {
-  .container{
-    margin: 15vh auto;
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2.5vw;
+    width: 85%;
+    margin: 0 auto;
+    padding: 1.7vh;
+  }
+  p {
+    font-size: 1.5vw;
+    margin: 2vh auto;
+  }
+  h2 {
+    margin-top: 2vh;
+    margin-bottom: 0;
+  }
+  .menu button {
+    font-size: 1.2vw;
+    width: 10vw;
+  }
+  .container1 button {
+    font-size: 2vw;
+    width: 70%;
+    padding: 1.5vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 9vh auto;
+  }
+  .container2 {
+    margin: 0 auto;
+  }
+  .container1 {
+    width: 65%;
+    margin-left: 15vw;
+  }
+  h1 {
+    font-size: 2.7vw;
+    width: 80%;
 
   }
-  .container1{
+  p {
+    font-size: 1.8vw;
+    margin: 1.2vh auto;
+  }
+
+  .menu button {
+    font-size: 1.5vw;
+    width: 12vw;
+    margin-left: -1vw;
+  }
+  .container1 button {
+    font-size: 2vw;
+    width: 70%;
+    padding: 1.5vh;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .container {
+    margin: 15vh auto;
+  }
+  .container1 {
     margin: 5vh auto;
     width: 75%;
   }
-  .container2{
+  .container2 {
     margin: 0 auto;
   }
-  .menu{
+  .menu {
     display: flex;
     top: 10vh;
     left: 20vw;
-
   }
-  .menu button{
+  .menu button {
     width: 20vw;
     font-size: 4vw;
+    margin-right: 3vw;
   }
 
-  h1{
+  h1 {
     width: 80%;
     margin: 1vh auto;
     padding: 1vh;
     font-size: 5vw;
   }
-  p{
+  p {
     font-size: 3.2vw;
     margin-top: 0.5vh;
   }
