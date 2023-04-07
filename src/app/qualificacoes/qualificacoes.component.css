@@ -1,7 +1,7 @@
 .container {
-  width: 40%;
-  margin-top: 5%;
-  margin-left: 25%;
+  width: 55%;
+  margin-top: 13vh;
+  margin-left: 4vw;
   margin-bottom: 7%;
   font-weight: 100;
   display: flex;
@@ -9,10 +9,11 @@
   border: 2px solid var(--cor-branco);
   border-radius: 10px;
   padding: 2%;
-  padding-left: 4%;
+  padding-top: 0;
+  padding-left: 3%;
 }
 h2 {
-  margin-top: 3%;
+  margin-top: 5vh;
   margin-bottom: 3%;
   background-color: var(--cor-btn-bg);
   width: 98%;
@@ -25,4 +26,49 @@ h2 {
 }
 li {
   font-weight: 200;
+  margin-left: 1.2vw;
+}
+
+@media only screen and (max-width: 1440px) {
+  .container {
+    padding-top: 3vh;
+  }
+  h2 {
+    width: 90%;
+    margin: 4vh auto;
+  }
+  li {
+    margin-left: 3vw;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 63%;
+    padding-top: 1vh;
+    margin-bottom: 15vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+    margin-left: 3vw;
+  }
+}
+
+@media only screen and (max-width:425px) {
+  .container {
+    width: 76%;
+    margin-left: 7.5vw;
+    margin-top: 18vw;
+    padding-right: 4vw;
+    padding-top: 0vh;
+  }
+  h2{
+    font-size: 4vw;
+  }
+  li{
+    font-size: 3vw;
+    margin-left: 5vw;
+  }
 }

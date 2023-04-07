@@ -1,21 +1,20 @@
-.container{
+.container {
   display: flex;
-  margin-left: 25%;
-  margin-top: 7%;
+  margin: 15vh 7vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40% ;
-  border: 2px solid var(--cor-branco);
+  width: 58%;
+  border: 3px solid var(--cor-branco);
   border-radius: 10px;
   padding: 2%;
 }
-p{
+p {
   margin-bottom: 2%;
   font-weight: 200;
   font-size: 17px;
 }
-h1{
+h1 {
   margin-bottom: 2%;
   background-color: var(--cor-btn-bg);
   width: 100%;
@@ -25,4 +24,41 @@ h1{
   cursor: pointer;
   padding: 10px;
   text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2.5vw;
+    width: 80%;
+    margin: 2vh auto;
+    padding: 1.7vh;
+  }
+  p {
+    font-size: 1.5vw;
+    margin: 1vh auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container{
+    width: 80%;
+    margin-left: 3vw;
+    margin-top: 12vh;
+  }
+  h1{
+    font-size: 3vw;
+  }
+  p {
+    font-size: 2vw;
+    margin: 1vh auto;
+  }
+}
+@media only screen and (max-width: 425px){
+  .container{
+    margin: 10vh auto;
+  }
+  h1{
+    font-size: 5vw;
+  }
+  p{
+    font-size: 3.5vw;
+  }
 }
