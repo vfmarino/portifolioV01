@@ -393,3 +393,35 @@ fizemos um teste para resposividade apenas no mobile do component youtube, falta
 *** 
 ### 21° Passo
 
+Alteramos a funçao scroollTo()
+
+scrollTo(elementId: string, offset: number = 0): void {
+  const element = document.getElementById(elementId);
+  if (element) {
+    const rect = element.getBoundingClientRect();
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const top = rect.top + scrollTop - offset;
+    window.scrollTo({top, behavior: 'smooth'});
+  }
+}
+
+Nessa função o objetivo é que ela role um pouco acima do id, para ficar visualmente mais atraente, em button (click)="scrollTo('sobre',70)", com isso estamo definindo para ficar 70px acima de do "id"
+
+1- scrollTo(elementId: string, offset: number = 0): void A função recebe dois parâmetros: o ID do elemento para o qual se deseja rolar e um valor opcional que define um offset (um deslocamento) em relação à posição final do elemento.
+
+2 - const element = document.getElementById(elementId);: A função procura na página o elemento com o ID especificado e armazena a referência a ele na variável element.
+
+3 -if (element)  Verifica se o elemento existe. Se existir, prossegue com a função; caso contrário, a função é encerrada.
+
+4 - const rect = element.getBoundingClientRect();: Obtem a posição do elemento na tela, armazenando as informações na variável rect, a função getBoundingClientRect() é usada para obter o retângulo que circunda o elemento identificado pelo elementId. Esse retângulo é retornado como um objeto com diversas propriedades, incluindo top, right, bottom e left, que representam as coordenadas x e y do retângulo em relação à janela do navegador, sendo assim está pegando a posição rect.top na linha 6
+
+5 - const scrollTop = window.pageYOffset || document.documentElement.scrollTop;: Armazena na variável scrollTop a posição atual do scroll da janela (a posição do topo da página em relação ao topo da janela). É usada a propriedade pageYOffset em navegadores modernos e scrollTop em navegadores mais antigos.
+
+6 - const top = rect.top + scrollTop - offset;: Calcula a posição final para rolar, considerando a posição do elemento (rect.top), a posição atual do scroll (scrollTop) e o offset definido na chamada da função (offset).
+
+7 - window.scrollTo({top, behavior: 'smooth'});: Rola a página para a posição final, usando a função scrollTo do objeto window. A posição final é definida pelo objeto { top, behavior: 'smooth' }, que especifica a posição final top e o comportamento suave de rolagem behavior: 'smooth'.
+
+### 21° Commit - Scrollto -70px and explained
+*** 
+
+### 22° Passo
