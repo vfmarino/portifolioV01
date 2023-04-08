@@ -438,3 +438,13 @@ Ajustando a Resposividade em youtube component.
 Ajustando a Resposividade em sobre e qualificaçoes component.
 
 ### 23° Commit - Responsive part 9 - sobre e quali
+
+***
+
+### 24° Passo
+
+Ajustando a Resposividade em Portifolio e Contato Cadastro
+
+### 24° Commit - Responsive part 10 - Portifolio e Contato Register
+
+
